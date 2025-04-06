@@ -74,7 +74,17 @@ const Registration = () => {
               }
             />
           </Grid>
-          
+          <Button
+            fullWidth
+            variant="contained"
+            sx={{ mt: 3, mb: 2 }}
+            onClick={handleRegister}
+          >
+            Register
+          </Button>
+          <Grid container justifyContent="flex-end">
+              <Link to="/">Already have an account? Login</Link>
+          </Grid>
         </Box>
       </Box>
     </Container>
