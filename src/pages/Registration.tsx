@@ -86,6 +86,7 @@ const Registration = () => {
                 setPassword(e.target.value)
               }
             />
+            
           </Grid>
           <Button
             fullWidth
