@@ -73,6 +73,19 @@ const Registration = () => {
                 setPassword(e.target.value)
               }
             />
+
+            <TextField
+              required
+              fullWidth
+              name="confirm_password"
+              label="Confirm Password"
+              type="password"
+              id="confirm_password"
+              value={password}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                setPassword(e.target.value)
+              }
+            />
           </Grid>
           <Button
             fullWidth
